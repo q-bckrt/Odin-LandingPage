@@ -54,6 +54,8 @@ nav {
 
 header img {
     max-width: 600px;
+    border: 5px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 header .logo {
@@ -88,9 +90,14 @@ header a {
     flex: 1;
 }
 
+.section_1 {
+    padding: 50px 0;
+}
+
 .cards {
     display: flex;
     justify-content: center;
+    gap: 2%;
 }
 
 .section_2 {
@@ -155,8 +162,15 @@ footer {
 .pic {
     height: 150px;
     width: 150px;
-    border: solid black 3px;
-    border-radius: 5%;
+    border: solid black 5px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic img {
+    width: 80%;
 }
 
 .card {
