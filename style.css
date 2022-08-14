@@ -22,6 +22,12 @@ nav {
     padding: 20px 0px;
 }
 
+header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .links {
     display: flex;
     gap: 20px;
@@ -44,29 +50,9 @@ nav {
     min-width: 40%;
 }
 
-.header_content .right {
-    flex: 1 0 auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-header img {
-    max-width: 600px;
-    border: 5px solid #F9FAF8;
-    border-radius: 10px;
-}
-
-header .logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: 700;
-}
-
 header h1 {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900;
     margin: 0;
     padding: 0;
@@ -78,6 +64,21 @@ header p{
     font-size: 18px;
     font-weight: 400;
 }
+
+.header_content .right {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+header img {
+    max-width: 600px;
+    border: 5px solid #E5E7EB;
+    border-radius: 10px;
+}
+
 
 header a {
     color: #E5E7EB;
@@ -102,10 +103,22 @@ header a {
 
 .section_2 {
     background-color: #E5E7EB;
+    padding: 100px 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_2 p:nth-child(1) {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    padding: 100px 20%;
+}
+
+.section_2 p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 0 10%;
 }
 
 .section_3 {
@@ -141,13 +154,17 @@ header a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 3px solid #E5E7EB;
+    border-radius: 5%;
 }
 
 .call_action {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
+    border-radius: 10px;
 }
 
 footer {
@@ -157,6 +174,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 30px 0;
 }
 
 .pic {
