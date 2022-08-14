@@ -12,6 +12,7 @@ body {
 header {
     background-color: #1F2937;
     flex: 1;
+    padding: 0px 250px;
 }
 
 img {
@@ -21,6 +22,12 @@ img {
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
 }
 
 .header_content {
@@ -66,6 +73,30 @@ header a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding: 100px 400px;
+}
+
+.section_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_action {
+    width: 65%;
+    margin: 100px 0;
+    padding: 50px 100px;
+}
+
+.call_action .left {
+    flex: 3;
+}
+
+.call_action .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section_1 h2 {
@@ -93,4 +124,22 @@ footer {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.pic {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+    border-radius: 5%;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
 }
